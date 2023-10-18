@@ -27,7 +27,7 @@ global.Fca = new Object({
             "PreKey": "",
             "AutoUpdate": true,
             "MainColor": "#9900FF",
-            "MainName": "[ FCA-HZI ]",
+            "MainName": "[ FCA-DONG ]",
             "Uptime": false,
             "Config": "default",
             "DevMode": false,
@@ -46,11 +46,7 @@ global.Fca = new Object({
                 "ResetData": false,
                 "AppState_Path": "appstate.json"
             },
-            "HTML": {   
-                "HTML": true,
-                "UserName": "Guest",
-                "MusicLink": "https://drive.google.com/uc?id=1zlAALlxk1TnO7jXtEP_O6yvemtzA2ukA&export=download"
-            },
+            "HTML": {},
             "AntiGetInfo": {
                 "Database_Type": "default", //json or default
                 "AntiGetThreadInfo": true,
