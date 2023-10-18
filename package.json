@@ -1,7 +1,7 @@
 {
   "name": "fca-dongdev",
   "version": "1.8.2",
-  "description": "Facebook-chat-api protect and deploy by Kanzu and DongDev,",
+  "description": "Facebook-chat-api protect and deploy by Kanzu, DongDev modded again and continued to develop",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
