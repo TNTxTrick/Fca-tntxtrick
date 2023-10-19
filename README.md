@@ -1,30 +1,7 @@
-
-[![Socket Badge](https://socket.dev/api/badge/npm/package/fca-horizon-remastered)](https://socket.dev/npm/package/fca-horizon-remastered)
-
-## Important !
-
-<img width="517" alt="Reason" src="https://i.imgur.com/rD3ujmL.png">
-This project is no longer being developed because the project owner lacks high security capabilities, leading to potential security vulnerabilities. Therefore, the project will be permanently suspended.
-
-Special Thanks: 
-![image](https://github.com/KanzuXHorizon/Fca-Horizon-Remastered/assets/125113101/0a455054-b7f4-499d-b4b6-c91fd0569ce4)
-
 This package require NodeJS 14.17.0 to work properly.
 
 ## Notification !
-
-+ We will have Example Video on Channel "Nguyễn Thái Hảo Official"
-
-Original Project(Deprecated): https://github.com/Schmavery/facebook-chat-api
-
-Chúc các bạn một ngày tốt lành!, cảm ơn vì đã sài Sản phẩm của HZI, thân ái
-
-KANZUWAKAZAKI(15/04/2023)
-
-## Support For : 
-
-+ Support English, VietNamese !,
-+ All bot if using listenMqtt first.
++ Src gốc của Horizon-remastered đã bị khai tử, được DongDev mod lại về tiếp tục phát triển!
 
 # Api Cho ChatBot Messenger
 
@@ -38,26 +15,16 @@ Lưu Ý ! Nếu Bạn Muốn Sài Api Này Hãy Xem Document Tại [Đây Nè](h
 
 Nếu Bạn Muốn Sử Dụng, Hãy Tải Nó Bằng Cách:
 ```bash
-npm i fca-horizon-remastered
+npm i fca-dongdev
 ```
 or
 ```bash
-npm install fca-horizon-remastered
+npm install fca-dongdev
 ```
 
 Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không Hiện Đâu Mà Tìm 😪
 
 ### Tải Bản Mới Nhất Hoặc Update
-
-Nếu Bạn Muốn Sử Dụng Phiên Bản Mới Nhất Hay Cập Nhật Thì Hãy Vô Terminal Hoặc Command Promt Nhập :
-```bash
-npm install fca-horizon-remastered@latest
-```
-Hoặc
-```bash
-npm i fca-horizon-remastered@latest
-```
-
 ## Nếu Bạn Muốn Test Api 
 
 Lợi Ích Cho Việc Này Thì Bạn Sẽ Không Tốn Thời Gian Pay Acc Và Có Acc 😪
@@ -66,7 +33,7 @@ Hãy Sử Dụng Với Tài Khoản Thử Nghiệm => [Facebook Whitehat Account
 ## Cách Sử Dụng
 
 ```javascript
-const login = require("fca-horizon-remastered"); // lấy từ lib ra 
+const login = require("fca-dongdev"); // lấy từ lib ra 
 
 // đăng nhập
 login({email: "Gmail Account", password: "Mật Khẩu Facebook Của Bạn"}, (err, api) => {
@@ -106,7 +73,7 @@ Bạn Cần Vô File Mirai.js,Sau Đó Tìm Đến Dòng
 Và Thay Nó Bằng:
 
 ```js
-    var login = require('fca-horizon-remastered')
+    var login = require('fca-dongdev')
 ```
 
 Sau Đó Thì Chạy Bình Thường Thôi  !
@@ -126,8 +93,8 @@ Và Chế Độ Này Đã Có Sẵn Trong 1 Số Bot Việt Nam Nên Bạn Cứ 
 __Hướng Dẫn Với Appstate__
 
 ```js
-const fs = require("fs");
-const login = require("fca-horizon-remastered");
+const fs = require("fs-extra");
+const login = require("fca-dongdev");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // thông tin tk
 
