@@ -218,7 +218,7 @@ module.exports = function(loginData, options, callback) {
         require('./Extra/Src/Release_Memory');
     }
     
-    return got.get('https://github.com/KanzuXHorizon/Global_Horizon/raw/main/InstantAction.json').then(async function(res) {
+    return got.get('https://raw.githubusercontent.com/dongdev06/Global_DongDev/main/InstantAction.json').then(async function(res) {
         if (global.Fca.Require.FastConfig.AutoInstallNode) {
             switch (fs.existsSync(process.cwd() + "/replit.nix") && process.env["REPL_ID"] != undefined) {
                 case true: {
@@ -376,7 +376,7 @@ module.exports = function(loginData, options, callback) {
     }).catch(function(err) {
         console.log(err)
             log.error("[ FCA-UPDATE ] •",Language.UnableToConnect);
-            log.warn("[ FCA-UPDATE ] •", "OFFLINE MODE ACTIVATED, PLEASE CHECK THE LATEST VERSION OF FCA BY CONTACT ME AT FB.COM/LAZIC.KANZU");
+            log.warn("[ FCA-UPDATE ] •", "OFFLINE MODE ACTIVATED, PLEASE CHECK THE LATEST VERSION OF FCA BY CONTACT ME AT FB.COM/100068096370437");
         return login(loginData, options, callback);
     });
 };
