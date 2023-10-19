@@ -1,7 +1,7 @@
 This package require NodeJS 14.17.0 to work properly.
 
 ## Notification !
-+ Src gốc của Horizon-remastered đã bị khai tử, được DongDev mod lại về tiếp tục phát triển!
++ Src gốc của Horizon-remastered đã bị khai tử, được DongDev mod lại và tiếp tục phát triển!
 
 # Api Cho ChatBot Messenger
 
