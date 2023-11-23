@@ -1,5 +1,5 @@
 {
-  "name": "fca-dongdev",
+  "name": "fca-tntxtrick",
   "version": "1.8.2",
   "description": "Facebook-chat-api protect and deploy by Kanzu, DongDev modded again and continued to develop",
   "main": "index.js",
@@ -9,12 +9,12 @@
   "author": "Avery, David, Maude, Benjamin, UIRI, KanzuWakazaki, DongDev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dongdev06/Fca-Dongdev/issues"
+    "url": "https://github.com/TNTxTrick/Fca-tntxtrick/issues"
   },
-  "homepage": "https://github.com/dongdev06/Fca-Dongdev#readme",
+  "homepage": "https://github.com/TNTxTrick/Fca-tntxtrick#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dongdev06/Fca-Dongdev.git"
+    "url": "git://github.com/TNTxTrick/Fca-tntxtrick.git"
   },
   "dependencies": {
     "aes-js": "latest",
@@ -85,7 +85,7 @@
   },
   "keywords": [
     "fca horizon",
-    "fca-dongdev",
+    "fca-tntxtrick",
     "fca",
     "fb-chat-api"
   ]
