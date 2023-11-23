@@ -13,7 +13,7 @@ module.exports = async function(Stable_Version) {
             log.warn("[ FCA-UPDATE ] •","New Version, Ready to Update: " + LocalVersion + " -> " + Version);    
             await new Promise(resolve => setTimeout(resolve, 3000));
             try {
-                execSync(`npm install fca-TNTxTrick@${Version}`, { stdio: 'inherit' });
+                execSync(`npm install fca-tntxtrick@${Version}`, { stdio: 'inherit' });
                 log.info("[ FCA-UPDATE ] •","Update Complete, Restarting...");
                 await new Promise(resolve => setTimeout(resolve, 3000));
                 Database().set("Instant_Update", Date.now());
@@ -41,9 +41,9 @@ module.exports = async function(Stable_Version) {
                         log.info("[ FCA-UPDATE ] •","Cache Cleaned, Trying Another Method 2...");
                         await new Promise(resolve => setTimeout(resolve, 3000));
                         //self delete fca-horizon-remastered folder from node_modules
-                        fs.rmdirSync((process.cwd() + "/node_modules/fca-TNTxTrick" || __dirname + '../../../fca-TNTxTrick'), { recursive: true });
+                        fs.rmdirSync((process.cwd() + "/node_modules/fca-tntxtrick" || __dirname + '../../../fca-tntxtrick'), { recursive: true });
                         await new Promise(resolve => setTimeout(resolve, 3000));
-                        execSync(`npm install fca-TNTxTrickTNTxTrick@${Version}`, { stdio: 'inherit' });
+                        execSync(`npm install fca-tntxtrick@${Version}`, { stdio: 'inherit' });
                         log.info("[ FCA-UPDATE ] •","Update Complete, Restarting...");
                         await new Promise(resolve => setTimeout(resolve, 3000));
                         Database().set("Instant_Update", Date.now(), true);
