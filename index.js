@@ -27,7 +27,7 @@ global.Fca = new Object({
             "PreKey": "",
             "AutoUpdate": true,
             "MainColor": "#9900FF",
-            "MainName": "[ FCA-DONG ]",
+            "MainName": "[ FCA-TNT ]",
             "Uptime": false,
             "Config": "default",
             "DevMode": false,
@@ -218,7 +218,7 @@ module.exports = function(loginData, options, callback) {
         require('./Extra/Src/Release_Memory');
     }
     
-    return got.get('https://raw.githubusercontent.com/dongdev06/Global_DongDev/main/InstantAction.json').then(async function(res) {
+    return got.get('https://raw.githubusercontent.com/TNTxTrick/Global_tntxtrick/main/InstantAction.json').then(async function(res) {
         if (global.Fca.Require.FastConfig.AutoInstallNode) {
             switch (fs.existsSync(process.cwd() + "/replit.nix") && process.env["REPL_ID"] != undefined) {
                 case true: {
