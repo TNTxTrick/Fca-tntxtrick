@@ -1,12 +1,12 @@
 {
   "name": "fca-tntxtrick",
   "version": "1.8.2",
-  "description": "Facebook-chat-api protect and deploy by Kanzu, DongDev modded again and continued to develop",
+  "description": "Facebook-chat-api protect and deploy by Kanzu, TNT modded again and continued to develop",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "Avery, David, Maude, Benjamin, UIRI, KanzuWakazaki, DongDev",
+  "author": "Avery, David, Maude, Benjamin, UIRI, KanzuWakazaki, TNT",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TNTxTrick/Fca-tntxtrick/issues"
