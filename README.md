@@ -1,7 +1,7 @@
 This package require NodeJS 14.17.0 to work properly.
 
 ## Notification !
-+ Src gốc của Horizon-remastered đã bị khai tử, được DongDev mod lại và tiếp tục phát triển!
++ Src gốc của Horizon-remastered đã bị khai tử, được TNTxTrick mod lại và tiếp tục phát triển!
 
 # Api Cho ChatBot Messenger
 
@@ -15,11 +15,11 @@ Lưu Ý ! Nếu Bạn Muốn Sài Api Này Hãy Xem Document Tại [Đây Nè](h
 
 Nếu Bạn Muốn Sử Dụng, Hãy Tải Nó Bằng Cách:
 ```bash
-npm i fca-dongdev
+npm i fca-TNTxTrick
 ```
 or
 ```bash
-npm install fca-dongdev
+npm install fca-TNTxTrick
 ```
 
 Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không Hiện Đâu Mà Tìm 😪
@@ -33,7 +33,7 @@ Hãy Sử Dụng Với Tài Khoản Thử Nghiệm => [Facebook Whitehat Account
 ## Cách Sử Dụng
 
 ```javascript
-const login = require("fca-dongdev"); // lấy từ lib ra 
+const login = require("fca-TNTxTrickTNTxTrick"); // lấy từ lib ra 
 
 // đăng nhập
 login({email: "Gmail Account", password: "Mật Khẩu Facebook Của Bạn"}, (err, api) => {
@@ -73,7 +73,7 @@ Bạn Cần Vô File Mirai.js,Sau Đó Tìm Đến Dòng
 Và Thay Nó Bằng:
 
 ```js
-    var login = require('fca-dongdev')
+    var login = require('fca-TNTxTrickTNTxTrick')
 ```
 
 Sau Đó Thì Chạy Bình Thường Thôi  !
@@ -94,7 +94,7 @@ __Hướng Dẫn Với Appstate__
 
 ```js
 const fs = require("fs-extra");
-const login = require("fca-dongdev");
+const login = require("fca-TNTxTrick");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // thông tin tk
 
