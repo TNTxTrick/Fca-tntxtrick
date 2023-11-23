@@ -20,7 +20,7 @@ module.exports = {
 		if (isHexcolor(global.Fca.Require.FastConfig.MainColor) != true) {
 			this.Warning(getText(global.Fca.Require.Language.Index.InvaildMainColor,global.Fca.Require.FastConfig.MainColor),process.exit(0));
 		}
-		else console.log(chalk.hex(global.Fca.Require.FastConfig.MainColor).bold(`${global.Fca.Require.FastConfig.MainName || '[ FCA-DONG ]'} > `) + Str);
+		else console.log(chalk.hex(global.Fca.Require.FastConfig.MainColor).bold(`${global.Fca.Require.FastConfig.MainName || '[ FCA-TNT ]'} > `) + Str);
 		if (getType(Data) == 'Function' || getType(Data) == 'AsyncFunction') {
 			return Data();
 		}
