@@ -33,7 +33,7 @@ Hãy Sử Dụng Với Tài Khoản Thử Nghiệm => [Facebook Whitehat Account
 ## Cách Sử Dụng
 
 ```javascript
-const login = require("fca-TNTxTrickTNTxTrick"); // lấy từ lib ra 
+const login = require("fca-tntxtrick"); // lấy từ lib ra 
 
 // đăng nhập
 login({email: "Gmail Account", password: "Mật Khẩu Facebook Của Bạn"}, (err, api) => {
@@ -73,7 +73,7 @@ Bạn Cần Vô File Mirai.js,Sau Đó Tìm Đến Dòng
 Và Thay Nó Bằng:
 
 ```js
-    var login = require('fca-TNTxTrickTNTxTrick')
+    var login = require('fca-tntxtrick')
 ```
 
 Sau Đó Thì Chạy Bình Thường Thôi  !
@@ -94,7 +94,7 @@ __Hướng Dẫn Với Appstate__
 
 ```js
 const fs = require("fs-extra");
-const login = require("fca-TNTxTrick");
+const login = require("fca-tntxtrick");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // thông tin tk
 
