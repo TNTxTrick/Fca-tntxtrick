@@ -78,7 +78,7 @@
                 "Ws_TypeUserName": "Hãy Nhập Một UserName Cho Tài Khoản Websocket Extension của bạn: ",
                 "Ws_TypePassWord": "Hãy Nhập Một Mật Khẩu Cho Tài Khoản WebSocket Extension của bạn : ",
                 "Ws_Success": "Đặt Dữ Liệu Cho Websocket Extension Thành Công!",
-                "Ws_2Fa": "Đây là mã xác thực 2 yếu tố(2FA) của bạn cho DongDev_Extension, hãy sử dụng Google Authenticator để lấy mã phòng trường hợp quên mật khẩu hoặc yêu cầu xác minh !\n\n=> Đây: %1",
+                "Ws_2Fa": "Đây là mã xác thực 2 yếu tố(2FA) của bạn cho tntxtricktntxtrick_Extension, hãy sử dụng Google Authenticator để lấy mã phòng trường hợp quên mật khẩu hoặc yêu cầu xác minh !\n\n=> Đây: %1",
                 "Ws_2Fa_Check": "Hãy nhập mã 2Fa của bạn từ ứng dụng xác thực: ",
 
                 "WishMessage": [
