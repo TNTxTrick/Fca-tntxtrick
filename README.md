@@ -15,11 +15,11 @@ Lưu Ý ! Nếu Bạn Muốn Sài Api Này Hãy Xem Document Tại [Đây Nè](h
 
 Nếu Bạn Muốn Sử Dụng, Hãy Tải Nó Bằng Cách:
 ```bash
-npm i fca-TNTxTrick
+npm i fca-tntxtrick
 ```
 or
 ```bash
-npm install fca-TNTxTrick
+npm install fca-tntxtrick
 ```
 
 Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không Hiện Đâu Mà Tìm 😪
